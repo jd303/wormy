@@ -1,0 +1,31 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-color: #2ec4b6;
+}
+
+#switch {
+  position: absolute;
+  z-index: 100;
+  top: 20px;
+  left: 20px;
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  font-size: 2em;
+  background-color: transparent;
+  border: none;
+}
+
+#switch:hover {
+  transform: scale(1.1);
+}
+
+canvas {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
